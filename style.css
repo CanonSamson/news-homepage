@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap);
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
 
 * {
     margin: 0;
@@ -68,7 +68,7 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent
+    text-fill-color: transparent;
 }
 
 h2 {
@@ -294,7 +294,7 @@ footer {
     }
 
     .menu-btn::after {
-        content: url(images/burger-menu.svg);
+        content: url("./assets/images/burger-menu.svg");
         transform: translate(-1.125rem, -.9375rem);
         z-index: 30
     }
